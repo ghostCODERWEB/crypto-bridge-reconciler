@@ -1,0 +1,13 @@
+{
+  "issues": [],
+  "locked_less_released": 100,
+  "matched_messages": 1,
+  "minted_less_burned": 100,
+  "pending_messages": 0,
+  "totals": {
+    "burn": 0,
+    "lock": 100,
+    "mint": 100,
+    "release": 0
+  }
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-bridge-reconciler"
+version = "0.1.0"
+description = "Reconcile lock, mint, burn and release records and flag duplicate, unmatched and delayed messages."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-bridge-reconciler = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
